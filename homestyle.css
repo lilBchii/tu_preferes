@@ -1,0 +1,91 @@
+.button1 {
+    background-color: #FF9400;
+    width: 100%;
+    height: 100%;
+    border: none;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 200%;
+    color: #fff;
+}
+.button1:hover {
+    background-color: #fff;
+    color: #FF9400;
+}
+.button2 {
+    background-color: #0264FF;
+    width: 100%;
+    height: 100%;
+    border: none;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 200%;
+    color: #fff;
+}
+.button2:hover {
+    background-color: #fff;
+    color: #0264FF;
+}
+.button3 {
+    border: none;
+    text-align: center;
+    width: 100%;
+    background-color: #000;
+    font-size: 65%; 
+    font-family: 'Rubik', sans-serif;
+    color: #fff;   
+}
+.button3:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+.vertical_split {
+    height:100%;
+    width:50%;
+    position:fixed;
+}
+.left {
+    left: 0;
+}
+.right {
+    right: 0;
+}
+
+
+.horizontal_split {
+    width:100%;
+    position:fixed;
+}
+.top {
+    height:30%;
+    top: 0;
+    left: 0;
+    background-image: url('https://lejournal.cnrs.fr/sites/default/files/styles/visuel_principal/public/assets/images/main_image_star-forming_region_carina_nircam_final-5mb_72dpi.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center ;
+    font-size: 300%;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+}
+.bottom {
+    height: 5%;
+    bottom: 0;
+    left: 0;
+}
+.midd {
+    height: 65%;
+    top: 30%;
+}
+
+
+.centered {
+    bottom: 62%;
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}

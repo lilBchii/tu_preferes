@@ -1,0 +1,45 @@
+.btn_add {
+	border: none;
+	width: 20%;
+	height: 80%;
+	top: 0;
+	text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 35%;
+    color: #000;
+    background-color: #fff;
+}
+.btn_add:hover {
+	color: #3A3A3A;
+}
+
+
+.horizontal_split {
+    width:100%;
+    position:fixed;
+}
+.top {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    height: 20%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 200%;
+}
+.bottom {
+    height: 8%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+.midd {
+    height: 65%;
+    top: 30%;
+}
+
+.centered {
+    bottom: 62%;
+    position: absolute;
+    text-align: center;
+}
