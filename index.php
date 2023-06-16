@@ -31,7 +31,7 @@
             </form>
         <div class="horizontal_split bottom">
             <button class="button3" onclick="window.location.href='résultats.php'">
-                <h1><center>R&eacute;sultats </h1>
+                <h1><center>Classement </h1>
             </button>
         </div>
     </body>
