@@ -18,6 +18,10 @@
         </div>
         <div class="horizontal_split midd">
             <form method="post" action="get_items.php">
+                <input name="info_left" type="hidden" value="<?php echo $left_id ?>">
+                <input name="info_right" type="hidden" value="<?php echo $right_id ?>">
+                <input name="info_left_score" type="hidden" value="<?php echo $left_score ?>">
+                <input name="info_right_score" type="hidden" value="<?php echo $right_score ?>">
                 <div  class="vertical_split left">
                     <input name="left" class="button1" type="submit" value="<?php echo $left_choice ?>">
                 </div>
